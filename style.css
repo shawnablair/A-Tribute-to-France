@@ -1,0 +1,105 @@
+h1 {
+  font-size: 8em;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+p {
+  font-size: 1.05em;
+  font-family: Helvetica, Geneva, sans-serif;
+  line-height: 120%;
+}
+
+span {
+  color: #f06a6c;
+}
+
+.franceimg {
+  width: 100%;
+  height: 415px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.theImage {
+  z-index: 98;
+  height: 400px;
+  width: 372px;
+  margin: 10px -15px;
+  background-size: 145%;
+  background-position: center;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.histoire {
+  background-image: url("http://d1qpyd3pu6qx6u.cloudfront.net/b70265ab070afb6a666990cde30d4689/565x0xwidth/75/http/blog.uloop.com/uloop/r=305/jpg/wp-content/uploads/2015/11/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple-450x356.jpg");
+}
+
+.people {
+  background-image: url("http://www.gunaxin.com/wp-content/uploads/2013/08/a98660_french_people5-480x335.jpg");
+}
+
+.theImagepeople {
+  z-index: 98;
+  height: 400px;
+  width: 372px;
+  margin: 10px -15px;
+  background-size: 155%;
+  background-position: center;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.food {
+  background-image: url("http://www1.expatica.com/upload/casey/FRcheese1a.jpg");
+}
+
+.theImagefood {
+  z-index: 98;
+  height: 400px;
+  width: 372px;
+  margin: 10px -15px;
+  background-size: 185%;
+  background-position: center;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.theImage:hover {
+  z-index: 99;
+  height: 405px;
+  width: 380px;
+  background-size: 150%;
+  background-position: center;
+}
+
+.theImagefood:hover {
+  z-index: 99;
+  height: 405px;
+  width: 380px;
+  background-size: 190%;
+  background-position: center;
+}
+
+.theImagepeople:hover {
+  z-index: 99;
+  height: 405px;
+  width: 380px;
+  background-size: 165%;
+  background-position: center;
+}
